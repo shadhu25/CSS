@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+
+body {
+  padding: 10%;
+  font-size: 2rem;
+  font-family: "Playwrite GB S", cursive;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: peru;
+}
+a:visited {
+  color: blueviolet;
+}
+
+a:hover, a:focus {
+  color: yellow;
+  background-color: gray;
+}
+
+a:active {
+  color: red;
+}
+

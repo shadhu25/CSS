@@ -1,0 +1,11 @@
+** Suggestions to Organize your CSS
+
+-- Follow your team
+
+-- Use comments to create headers
+
+-- Sort properties alphabetically (ABCSS)
+
+-- Larger projects Follow a naming convention methodoligy. BEM - Block, Element, Modifier
+
+--  

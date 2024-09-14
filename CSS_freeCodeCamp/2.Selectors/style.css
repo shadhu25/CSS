@@ -1,0 +1,44 @@
+/* universal selector */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* element slectors */
+body {
+    font-size: 22px;
+}
+h1 {
+    margin: 0.67em 0em;
+
+}
+p {
+    color: purple;
+    margin: 1em 0em;
+}
+
+/* ID selctors */
+#transform {
+    text-transform: uppercase;
+}
+
+
+/* class selctors */
+.red {
+    color: red;
+    text-transform: capitalize;
+    margin: 0.83em 0em;
+}
+
+/* group selectors */
+h1, h2 {
+    color: rgb(79, 160, 86);
+}
+
+/* nested selectors */
+p span {
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+ /* you can calculate specificity among two selectors by visiting https://specificity.keegun.st/ site */

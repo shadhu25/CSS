@@ -1,0 +1,31 @@
+body {
+    padding: 5% 10%;
+    font-size: 16px;
+}
+
+ol {
+    list-style-type: decimal-leading-zero;
+    padding-left: 200px;
+}
+
+.man {
+    text-align: center;
+    color: red;
+    line-height: 1.6;
+    text-decoration: underline;
+    list-style-type: circle;
+    list-style-position: inside;
+    list-style-image: url(right-arrow.png);
+    /* shorthand */
+    list-style: circle inside url(right-arrow.png);
+}
+
+.man li:nth-child(3) {
+    color: black;
+}
+
+.woman ::marker {
+    color: red;
+    font-size: 1rem;
+    content: "only 5rs-> ";
+}

@@ -1,0 +1,77 @@
+* {
+    padding: 0px;   margin: 0px;    box-sizing: border-box; }
+body {
+    font-size: 1.5rem;  min-height: 200vh; }
+.outer-container {
+    border: 3px dashed #333;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;} /*I made .outer-container positioned:relative so accoding to your question .outer-container become the nearest ancestor of .absolute box */
+.inner-container {
+    border: 2px solid #333;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;}
+.box {
+    color: white;
+    width: 150px;
+    height: 150px;
+    padding: 1rem;}
+.absolute {
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    top: 0;}
+.relative {
+    background-color: red;
+    position: relative;
+    top: 50px;
+    left: 50px;}
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 100px;
+    left: 150px;}
+.sticky {
+    background-color: black;    position: sticky;   top: 0; }
+
+/* Exaple CSS Code */
+/* ******************************************* */
+
+html {
+    scroll-behavior: smooth;
+}
+section {
+    height: 100vh;
+}
+.blue {background-color: blue;}
+.green {background-color: green;}
+.red {background-color: red;}
+header {
+    color: white;
+    text-align: center;
+    font-size: 5rem;
+    position: sticky;
+    top: 0;
+}
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #555;
+    position: fixed;
+    bottom: 0;
+}
+a {
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+button {
+    padding: 5px;
+    font-size: large;
+    background-color: chartreuse;
+    position: fixed;
+    top: 50%;
+    z-index: 1;
+}
